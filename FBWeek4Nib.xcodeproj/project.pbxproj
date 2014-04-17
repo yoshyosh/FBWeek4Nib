@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333623F519005E8A00332147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333623F419005E8A00332147 /* Foundation.framework */; };
+		333623F719005E8A00332147 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333623F619005E8A00332147 /* CoreGraphics.framework */; };
+		333623F919005E8A00332147 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333623F819005E8A00332147 /* UIKit.framework */; };
+		333623FF19005E8A00332147 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 333623FD19005E8A00332147 /* InfoPlist.strings */; };
+		3336240119005E8A00332147 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3336240019005E8A00332147 /* main.m */; };
+		3336240519005E8A00332147 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3336240419005E8A00332147 /* AppDelegate.m */; };
+		3336240719005E8A00332147 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3336240619005E8A00332147 /* Images.xcassets */; };
+		3336240E19005E8A00332147 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3336240D19005E8A00332147 /* XCTest.framework */; };
+		3336240F19005E8A00332147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333623F419005E8A00332147 /* Foundation.framework */; };
+		3336241019005E8A00332147 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333623F819005E8A00332147 /* UIKit.framework */; };
+		3336241819005E8A00332147 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3336241619005E8A00332147 /* InfoPlist.strings */; };
+		3336241A19005E8A00332147 /* FBWeek4NibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3336241919005E8A00332147 /* FBWeek4NibTests.m */; };
+		3336242619005EBE00332147 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3336242419005EBE00332147 /* HomeViewController.m */; };
+		3336242719005EBE00332147 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3336242519005EBE00332147 /* HomeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3336241119005E8A00332147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 333623E919005E8900332147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 333623F019005E8A00332147;
+			remoteInfo = FBWeek4Nib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		333623F119005E8A00332147 /* FBWeek4Nib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBWeek4Nib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		333623F419005E8A00332147 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		333623F619005E8A00332147 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		333623F819005E8A00332147 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		333623FC19005E8A00332147 /* FBWeek4Nib-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBWeek4Nib-Info.plist"; sourceTree = "<group>"; };
+		333623FE19005E8A00332147 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3336240019005E8A00332147 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3336240219005E8A00332147 /* FBWeek4Nib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBWeek4Nib-Prefix.pch"; sourceTree = "<group>"; };
+		3336240319005E8A00332147 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3336240419005E8A00332147 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3336240619005E8A00332147 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3336240C19005E8A00332147 /* FBWeek4NibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBWeek4NibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3336240D19005E8A00332147 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3336241519005E8A00332147 /* FBWeek4NibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBWeek4NibTests-Info.plist"; sourceTree = "<group>"; };
+		3336241719005E8A00332147 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3336241919005E8A00332147 /* FBWeek4NibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBWeek4NibTests.m; sourceTree = "<group>"; };
+		3336242319005EBE00332147 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3336242419005EBE00332147 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		3336242519005EBE00332147 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		333623EE19005E8A00332147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333623F719005E8A00332147 /* CoreGraphics.framework in Frameworks */,
+				333623F919005E8A00332147 /* UIKit.framework in Frameworks */,
+				333623F519005E8A00332147 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3336240919005E8A00332147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3336240E19005E8A00332147 /* XCTest.framework in Frameworks */,
+				3336241019005E8A00332147 /* UIKit.framework in Frameworks */,
+				3336240F19005E8A00332147 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		333623E819005E8900332147 = {
+			isa = PBXGroup;
+			children = (
+				333623FA19005E8A00332147 /* FBWeek4Nib */,
+				3336241319005E8A00332147 /* FBWeek4NibTests */,
+				333623F319005E8A00332147 /* Frameworks */,
+				333623F219005E8A00332147 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		333623F219005E8A00332147 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				333623F119005E8A00332147 /* FBWeek4Nib.app */,
+				3336240C19005E8A00332147 /* FBWeek4NibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		333623F319005E8A00332147 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				333623F419005E8A00332147 /* Foundation.framework */,
+				333623F619005E8A00332147 /* CoreGraphics.framework */,
+				333623F819005E8A00332147 /* UIKit.framework */,
+				3336240D19005E8A00332147 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		333623FA19005E8A00332147 /* FBWeek4Nib */ = {
+			isa = PBXGroup;
+			children = (
+				3336240319005E8A00332147 /* AppDelegate.h */,
+				3336240419005E8A00332147 /* AppDelegate.m */,
+				3336240619005E8A00332147 /* Images.xcassets */,
+				333623FB19005E8A00332147 /* Supporting Files */,
+				3336242319005EBE00332147 /* HomeViewController.h */,
+				3336242419005EBE00332147 /* HomeViewController.m */,
+				3336242519005EBE00332147 /* HomeViewController.xib */,
+			);
+			path = FBWeek4Nib;
+			sourceTree = "<group>";
+		};
+		333623FB19005E8A00332147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				333623FC19005E8A00332147 /* FBWeek4Nib-Info.plist */,
+				333623FD19005E8A00332147 /* InfoPlist.strings */,
+				3336240019005E8A00332147 /* main.m */,
+				3336240219005E8A00332147 /* FBWeek4Nib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3336241319005E8A00332147 /* FBWeek4NibTests */ = {
+			isa = PBXGroup;
+			children = (
+				3336241919005E8A00332147 /* FBWeek4NibTests.m */,
+				3336241419005E8A00332147 /* Supporting Files */,
+			);
+			path = FBWeek4NibTests;
+			sourceTree = "<group>";
+		};
+		3336241419005E8A00332147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3336241519005E8A00332147 /* FBWeek4NibTests-Info.plist */,
+				3336241619005E8A00332147 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		333623F019005E8A00332147 /* FBWeek4Nib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3336241D19005E8A00332147 /* Build configuration list for PBXNativeTarget "FBWeek4Nib" */;
+			buildPhases = (
+				333623ED19005E8A00332147 /* Sources */,
+				333623EE19005E8A00332147 /* Frameworks */,
+				333623EF19005E8A00332147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBWeek4Nib;
+			productName = FBWeek4Nib;
+			productReference = 333623F119005E8A00332147 /* FBWeek4Nib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3336240B19005E8A00332147 /* FBWeek4NibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3336242019005E8A00332147 /* Build configuration list for PBXNativeTarget "FBWeek4NibTests" */;
+			buildPhases = (
+				3336240819005E8A00332147 /* Sources */,
+				3336240919005E8A00332147 /* Frameworks */,
+				3336240A19005E8A00332147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3336241219005E8A00332147 /* PBXTargetDependency */,
+			);
+			name = FBWeek4NibTests;
+			productName = FBWeek4NibTests;
+			productReference = 3336240C19005E8A00332147 /* FBWeek4NibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		333623E919005E8900332147 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = yoshyosh;
+				TargetAttributes = {
+					3336240B19005E8A00332147 = {
+						TestTargetID = 333623F019005E8A00332147;
+					};
+				};
+			};
+			buildConfigurationList = 333623EC19005E8900332147 /* Build configuration list for PBXProject "FBWeek4Nib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 333623E819005E8900332147;
+			productRefGroup = 333623F219005E8A00332147 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				333623F019005E8A00332147 /* FBWeek4Nib */,
+				3336240B19005E8A00332147 /* FBWeek4NibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		333623EF19005E8A00332147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333623FF19005E8A00332147 /* InfoPlist.strings in Resources */,
+				3336240719005E8A00332147 /* Images.xcassets in Resources */,
+				3336242719005EBE00332147 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3336240A19005E8A00332147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3336241819005E8A00332147 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		333623ED19005E8A00332147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3336240519005E8A00332147 /* AppDelegate.m in Sources */,
+				3336240119005E8A00332147 /* main.m in Sources */,
+				3336242619005EBE00332147 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3336240819005E8A00332147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3336241A19005E8A00332147 /* FBWeek4NibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3336241219005E8A00332147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 333623F019005E8A00332147 /* FBWeek4Nib */;
+			targetProxy = 3336241119005E8A00332147 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		333623FD19005E8A00332147 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				333623FE19005E8A00332147 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3336241619005E8A00332147 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3336241719005E8A00332147 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3336241B19005E8A00332147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3336241C19005E8A00332147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3336241E19005E8A00332147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBWeek4Nib/FBWeek4Nib-Prefix.pch";
+				INFOPLIST_FILE = "FBWeek4Nib/FBWeek4Nib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3336241F19005E8A00332147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBWeek4Nib/FBWeek4Nib-Prefix.pch";
+				INFOPLIST_FILE = "FBWeek4Nib/FBWeek4Nib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3336242119005E8A00332147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FBWeek4Nib.app/FBWeek4Nib";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBWeek4Nib/FBWeek4Nib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FBWeek4NibTests/FBWeek4NibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3336242219005E8A00332147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FBWeek4Nib.app/FBWeek4Nib";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBWeek4Nib/FBWeek4Nib-Prefix.pch";
+				INFOPLIST_FILE = "FBWeek4NibTests/FBWeek4NibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		333623EC19005E8900332147 /* Build configuration list for PBXProject "FBWeek4Nib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3336241B19005E8A00332147 /* Debug */,
+				3336241C19005E8A00332147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3336241D19005E8A00332147 /* Build configuration list for PBXNativeTarget "FBWeek4Nib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3336241E19005E8A00332147 /* Debug */,
+				3336241F19005E8A00332147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3336242019005E8A00332147 /* Build configuration list for PBXNativeTarget "FBWeek4NibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3336242119005E8A00332147 /* Debug */,
+				3336242219005E8A00332147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 333623E919005E8900332147 /* Project object */;
+}

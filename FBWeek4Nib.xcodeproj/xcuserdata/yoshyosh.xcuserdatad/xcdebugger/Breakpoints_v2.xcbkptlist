@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FBWeek4Nib/HomeViewController.m"
-            timestampString = "419464724.124715"
+            timestampString = "419516564.196509"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "-slideDownHeadline:"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "-slideHeadline:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FBWeek4Nib/HomeViewController.m"
-            timestampString = "419464724.124715"
+            timestampString = "419516564.196509"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "-slideDownHeadline:"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "-slideHeadline:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

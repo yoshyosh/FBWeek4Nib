@@ -16,6 +16,10 @@
 float startDragHeight;
 float initialPosition;
 float newHeadlineHeight;
+float scrollInitialXPosition;
+float scrollInitialYPosition;
+float scrollStartXPosition;
+float scrollNewPosition;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -33,9 +37,17 @@ float newHeadlineHeight;
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(slideHeadline:)];
     [self.headlineView addGestureRecognizer:pan];
     
+    UIPanGestureRecognizer *panNews = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(slideNews:)];
+    //[self.scrollNews addGestureRecognizer:panNews];
+    
+    self.scrollView.contentSize = self.scrollNews.frame.size;
+    
     startDragHeight = 0; //initialize drag height
     initialPosition = 0;
     newHeadlineHeight = 0;
+    scrollInitialYPosition = self.scrollNews.frame.origin.y;
+    scrollInitialXPosition = 0;
+    scrollStartXPosition = 0;
 }
 
 - (void)didReceiveMemoryWarning
@@ -89,6 +101,24 @@ float newHeadlineHeight;
     } completion:^(BOOL finished) {
         initialPosition = 520;
     }];
+}
+
+- (void)slideNews:(UIPanGestureRecognizer *)panGestureRecognizer {
+    CGPoint point = [panGestureRecognizer locationInView:self.view];
+
+    if (panGestureRecognizer.state == UIGestureRecognizerStateBegan) {
+        scrollStartXPosition = point.x;
+    } else if (panGestureRecognizer.state == UIGestureRecognizerStateChanged){
+        scrollNewPosition = scrollInitialXPosition + (point.x - scrollStartXPosition);
+        if (scrollNewPosition > 0) {
+            scrollNewPosition = scrollNewPosition/3;
+        }
+        CGRect frame = self.scrollNews.frame;
+        frame.origin.x = scrollNewPosition;
+        self.scrollNews.frame = frame;
+    } else if (panGestureRecognizer.state == UIGestureRecognizerStateEnded){
+        scrollInitialXPosition = scrollNewPosition;
+    }
 }
 
 @end

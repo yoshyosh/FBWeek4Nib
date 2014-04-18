@@ -10,5 +10,7 @@
 
 @interface HomeViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIView *headlineView;
+@property (strong, nonatomic) IBOutlet UIView *scrollNews;
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end

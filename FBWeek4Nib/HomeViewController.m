@@ -55,7 +55,9 @@ float newHeadlineHeight;
     } else if (panGestureRecognizer.state == UIGestureRecognizerStateChanged) {
         int currentDragHeight = tapPoint.y;
         newHeadlineHeight = initialPosition + (currentDragHeight - startDragHeight);
-        //if newheadlineheight < 0 run some friction function
+        if (newHeadlineHeight < 0){
+            newHeadlineHeight = newHeadlineHeight/10;
+        }
         frame.origin.y = newHeadlineHeight;
         self.headlineView.frame = frame;
     } else if (panGestureRecognizer.state == UIGestureRecognizerStateEnded) {
